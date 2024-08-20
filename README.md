@@ -41,5 +41,5 @@ Este é um jogo simples de Pong desenvolvido em Python usando a biblioteca Tkint
 
 ## Controles do Jogo
 
-- **Tecla para cima**: Move a barra para cima.
-- **Tecla para baixo**: Move a barra para baixo.
+- **Tecla para direita**: Move a barra para direita.
+- **Tecla para esquerda**: Move a barra para esquerda.
