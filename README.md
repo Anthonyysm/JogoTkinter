@@ -1,45 +1,25 @@
-# Pong with Tkinter
+# Pong com Tkinter
+Este é um simples jogo de Pong desenvolvido em Python utilizando a biblioteca Tkinter. O objetivo do jogo é controlar uma barra para evitar que a bola atinja a parte inferior da tela.
 
-Este é um jogo simples de Pong desenvolvido em Python usando a biblioteca Tkinter.
+## Descrição
+O jogo é inspirado no clássico Pong e é implementado com a biblioteca Tkinter para criar a interface gráfica. A bola e a barra são desenhadas usando o widget Canvas, e o movimento da bola e da barra é controlado através de eventos de teclado.
 
 ## Funcionalidades
+- Interface gráfica: Utiliza o Tkinter para criar a janela do jogo e desenhar os elementos.
+- Movimento da bola: A bola se move automaticamente e muda de direção ao colidir com as bordas ou com a barra.
+- Movimento da barra: A barra pode ser movida para a esquerda e para a direita usando as teclas de seta.
+- Game Over: Exibe uma tela de "GAME OVER" quando a bola atinge a parte inferior da tela.
 
-- Movimento da barra usando as teclas do teclado.
-- Colisão da bola com as bordas da janela e com a barra.
-- Movimento aleatório da bola.
+## Requisitos
+- Python 3.x
+- Tkinter (geralmente incluído com a instalação do Python)
 
-## Tecnologias Utilizadas
+## Instalação
+Clone o repositório ou faça o download do arquivo do código-fonte. Não há dependências adicionais fora do Python e Tkinter.
 
-- Python
-- Tkinter
+## Como Executar
+1. Certifique-se de que você tem o Python 3.x instalado em seu sistema.
+2. Salve o código fornecido em um arquivo chamado pong.py.
+3. Execute o arquivo Python usando o comando:
 
-## Como Executar o Jogo
-
-1. Certifique-se de ter o Python instalado. Você pode verificar a instalação com o comando:
-
-    ```bash
-    python --version
-    ```
-
-2. Clone este repositório:
-
-    ```bash
-    git clone https://github.com/seu-usuario/pong-tkinter.git
-    ```
-
-3. Navegue até o diretório do projeto:
-
-    ```bash
-    cd jogoTkinter
-    ```
-
-4. Execute o jogo:
-
-    ```bash
-    python pong.py
-    ```
-
-## Controles do Jogo
-
-- **Tecla para direita**: Move a barra para direita.
-- **Tecla para esquerda**: Move a barra para esquerda.
+        python pong.py

@@ -25,6 +25,7 @@ bar_color = generate_pastel_color()
 
 tk.wm_attributes("-topmost", 1)
 canvas = Canvas(tk, width=1000, height=800, bd=0, highlightthickness=0)
+tk.iconbitmap('image\icon.ico')
 canvas.configure(bg=bg_color)
 canvas.pack()
 tk.update()
